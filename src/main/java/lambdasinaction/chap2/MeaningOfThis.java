@@ -18,6 +18,10 @@ public class MeaningOfThis
 	public static void main(String...args)
 	{       
 		MeaningOfThis m = new MeaningOfThis();
-		m.doIt(); // ???   
+		m.doIt();
+		// output is 5
+		// Because the result of println which is comes from Runnable class
+		// Not MeaningOfThis class
+		// It is in different Level class
 	}
 }
